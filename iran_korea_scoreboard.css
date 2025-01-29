@@ -1,0 +1,66 @@
+body {
+  margin: 0; /* Remove default margin */
+  background-color: white; /* Set background color to white */
+  color: #94958b; /* Set text color to white */
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  font-family: "Arial", sans-serif; /* Set font family */
+  font-size: 14px; /* Set font size to 16px */
+}
+
+.container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 100%; /* Set width to 100% of the container */
+  height: 100%; /* Set height to 100% of the container */
+  background-color: white; /* Set background color to white */
+}
+
+.inner-container {
+  display: flex; /* Use Flexbox for layout */
+  width: 90%; /* Set width to 90% of the container */
+  height: 90%; /* Set height to 90% of the container */
+  border: 2px solid #fff; /* Set border color to #94958b */
+  background-color: black; /* Set background color to black */
+  padding: 1px; /* Set padding to 1px */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.column {
+  flex: 1; /* Each column takes up equal space */
+  display: flex; /* Use Flexbox for layout */
+  flex-direction: column; /* Arrange content in a column */
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center; /* Center content horizontally */
+  padding: 20px; /* Set padding to 20px */
+  margin-bottom: 40px; /* Set bottom margin to 40px */
+}
+
+.column.iran {
+  align-items: flex-start; /* Align items to the start (right) */
+}
+
+.column.korea {
+  align-items: flex-end; /* Align items to the end (left) */
+}
+
+.column img {
+  max-width: 30px; /* Set maximum width to 30px */
+  height: 30px; /* Set height to 30px */
+  border-radius: 5px; /* Round the corners of the image */
+}
+
+.column h5 {
+  margin: 0; /* Remove default margin */
+  padding-bottom: 5px; /* Set bottom padding to 5px */
+}
+
+.column p {
+  margin: 0; /* Remove default margin */
+  padding: 5px 10px; /* Set padding to 5px top/bottom and 10px left/right */
+  text-align: center; /* Center align text */
+  font-weight: bold; /* Set font weight to bold */
+}
